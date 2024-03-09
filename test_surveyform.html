@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+<head>
+<title>test_form</title>
+<style>
+.content{
+margin:40px;
+background-color:white;
+}
+.form{
+border:1px solid green;
+background-color:green;
+}
+</style>
+</head>
+<body>
+<form class="form">
+<center>
+<div class="content">
+<h1>Survey Form</h1>
+<div>
+<label>Name</label>
+<input type="text" placeholder="Enter your name" name="myname" class="name">
+</div>
+<br>
+<div>
+<label>Email</label>
+<input type="email" placeholder="Enter your email" name="myemail" class="email">
+</div>
+<br>
+<div>
+<label>Age</label>
+<input type="number" placeholder="Enter your age" name="myage" class="age">
+</div>
+<br>
+<div>
+<label>Which option best describes your current role?</label>
+<select>
+<option>student</option>
+<option>fresher</option>
+<option>developer</option>
+</select>
+</div>
+<br>
+<div>
+<label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+<input type="radio" a="same">
+<label>Definitely</label>
+<br>
+<input type="radio" b="same">
+<label>Maybe</label>
+<br>
+<input type="radio" c="same">
+<label>Not sure</label>
+</div>
+<br>
+<div>
+<label>What do you like most in FCC:</label>
+<select>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+</select>
+</div>
+<br>
+<div>
+<label>Things that should be improved in the future</label>
+<input type="checkbox" first="anyname">
+<label>Front-end projects</label>
+<br>
+<input type="checkbox" second="anyothername">
+<label>Back-end projects</label>
+<br>
+<input type="checkbox" third="someothername">
+<label>Data visualization</label>
+</div>
+</center>
+</form>
+</body>
+</html>
